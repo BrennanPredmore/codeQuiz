@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 
@@ -20,13 +20,25 @@
         </header>
     </div>
     <div class="container">
-        <h1>Coding Quiz Challenge</h1>
-        <p>
+        <h1 id="questionTitle">Coding Quiz Challenge</h1>
+        <p id="paragraph">
             Try to answer the following code questions within the time limit
             <br>
             Keep in mind that incorrect answers with penalize your score time by 15 seconds!
+            <button id="startButton" type="button" class="btn btn-primary" style="display: block;">Start Quiz</button>
         </p>
-        <button id="button" type="button" class="btn btn-primary">Start Quiz</button>
+        <!-- <button id="choiceOne" type="button" class="btn"></button>
+        <button id="choiceTwo" type="button" class="btn"></button>
+        <button id="choiceThree" type="button" class="btn"></button>
+        <button id="choiceFour" type="button" class="btn"></button> -->
+   
+        <ul id="choices">
+            <li id="choiceOne"></li>
+            <li id="choiceTwo"></li>
+            <li id="choiceThree"></li>
+            <li id="choiceFour"></li>
+        </ul>
+        
     </div>
     <script src="questions.js"></script>
     <script src="script.js"></script>

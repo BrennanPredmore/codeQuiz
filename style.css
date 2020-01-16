@@ -4,9 +4,11 @@
     padding-top: 100px;
 }
 
-#button {
+#startButton {
     background-color: purple;
-    
+    display: block;
+    margin: 0 auto;
+
 }
 
 #time {
@@ -20,4 +22,40 @@
     float: left;
     margin-left: 30px;
     color: purple;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover{
+    opacity: 50%;
+}
+
+#choices {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+#choiceOne {
+    margin-bottom: 10px;
+
+}
+
+#choiceTwo {
+    margin-bottom: 10px;
+}
+
+#choiceThree {
+    margin-bottom: 10px;
+}
+
+#choiceFour {
+    margin-bottom: 10px;
 }
