@@ -33,6 +33,7 @@ button {
     background-color: purple;
     border-radius: 10px;
     color: white;
+
 }
 
 button:hover{
@@ -44,7 +45,11 @@ button:hover{
     font-size: 24px;
 }
 
-#choiceOne {
+#choices li {
+    margin-bottom: 10px;
+}
+
+/* #choiceOne {
     margin-bottom: 10px;
 
 }
@@ -59,4 +64,4 @@ button:hover{
 
 #choiceFour {
     margin-bottom: 10px;
-}
+} */
