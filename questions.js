@@ -25,8 +25,3 @@ var questions = [{
     },
 
 ];
-//   for (var count = 0; count < Arr.Length;Count){
-//     var ul = document.createElement('ul');
-//     document.createElement('li')
-//     .main.append()
-//   }

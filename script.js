@@ -36,6 +36,7 @@ function displayQuestion(e){
     ul.innerHTML = '';
   
     for (var i = 0; i < currentQuestion.choices.length;i++){
+        if(currentQuestion){
         var li = document.createElement('li');
           var choiceButton = document.createElement("button");
           choiceButton.setAttribute('value', currentQuestion.choices[i])
@@ -43,7 +44,13 @@ function displayQuestion(e){
  choiceButton.onclick = answerButtonClicked
  choiceButton.classList.add('answerChoice')
  li.append(choiceButton)
- ul.append(li);
+ ul.append(li);}
+        else{
+            //stop timer 
+            //manipulate dom to END PAGE
+            console.log('no more questions');
+        } 
+        
 
     
 }}
@@ -68,7 +75,7 @@ function displayQuestion(e){
                 display.textContent = minutes + ":" + seconds;
         
                 if (--timer < 0) {
-                    timer = duration;
+                    // timer = duration;
                 }
             }, 1000);
         }
