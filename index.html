@@ -15,10 +15,11 @@
 <body>
     <div class="header">
         <header>
-            <h2 id="viewScores">View Highscores</h2>
+          <h2 id="viewScores">View Highscores</h2>
             <h2 id="time">Time:</h2>
         </header>
     </div>
+
     <div class="container">
         <h1 id="questionTitle">Coding Quiz Challenge</h1>
         <p id="paragraph">
@@ -31,8 +32,27 @@
         <ul id="choices">
 
         </ul>
-        
+
     </div>
+
+
+    <div id="resultsDIV">
+        <h3>All Done</h3>
+        <h5>Your final score is <span id="score"> </span> </h5>
+        <h5 id='yourInitials'>Enter Initials:</h5>
+        <form id="submit">
+            <input id="initials" placeholder="Your Initials" type="text">
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+
+    <div id="scoresDIV">
+        <h1>TOP SCORES!</h1>
+        <ul id="scoreslist">
+        </ul>
+    </div>
+
+
     <script src="questions.js"></script>
     <script src="script.js"></script>
 </body>

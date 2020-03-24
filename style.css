@@ -20,7 +20,6 @@
 
 #viewScores {
     font-size: 15px;
-    float: left;
     margin-left: 30px;
     color: purple;
 }
@@ -49,19 +48,20 @@ button:hover{
     margin-bottom: 10px;
 }
 
-/* #choiceOne {
-    margin-bottom: 10px;
-
+h2 {
+    display: inline;
 }
 
-#choiceTwo {
-    margin-bottom: 10px;
+input {
+    width: 10%;
 }
 
-#choiceThree {
-    margin-bottom: 10px;
+ /* RESULTS DIV */
+ #resultsDIV {
+   text-align: center;
+    margin-top: 15%;
+ }
+#scoresDIV{
+    text-align: center;
+    margin-top: 15%; 
 }
-
-#choiceFour {
-    margin-bottom: 10px;
-} */
