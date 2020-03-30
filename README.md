@@ -6,7 +6,7 @@ A coding quiz composed of 5 questions to test the users knowlegdge on programmin
 75 second timer that counts down from the start of the quiz to the end of the questions or time runs out
 As well as local storage that stores high scores
 
-![Screenshot](assets/images/readMeScreenShot.png)
+![Screenshot](assets/images/codeQuizScreenshot.png)
 
 ## Github pages:
 

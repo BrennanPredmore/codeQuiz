@@ -101,6 +101,7 @@ function displayQuestion(e){
            event.preventDefault()
            var initials = document.querySelector('#initials').value
            localStorage.setItem(initials, timer);
+           displayScores();
        } )
 
 // Retrieve
@@ -123,4 +124,3 @@ function displayScores(){
      document.querySelector("#resultsDIV").style.display = "none";
 
 } 
-
