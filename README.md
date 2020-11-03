@@ -26,6 +26,7 @@ Please make sure to update tests as appropriate.
 
 ## Links:
 https://github.com/BrennanPredmore/codeQuiz
+<br>
 https://brennanpredmore.github.io/codeQuiz/
 
 ## License
