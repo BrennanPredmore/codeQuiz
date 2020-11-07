@@ -18,10 +18,6 @@ function startButtonClicked(e) {
 }
 
 function answerButtonClicked(e) {
-  // check if the answer is correct
-  // if: incorrect decrement time by 15 seconds
-  // increment the next question
-  // manipulate the page
   if (this.value !== questions[currentQuestionIndex].answer) {
     alert('incorrect');
     timer -= 15;
@@ -83,7 +79,6 @@ function startTimer(duration, display) {
     display.textContent = minutes + ':' + seconds;
 
     if (--timer < 0) {
-      // timer = duration;
     }
   }, 1000);
 }
@@ -91,6 +86,7 @@ function startTimer(duration, display) {
 window.onload = function () {};
 
 //Local storage
+
 // Store
 document.querySelector('#submit').addEventListener('submit', function (event) {
   event.preventDefault();
@@ -100,7 +96,6 @@ document.querySelector('#submit').addEventListener('submit', function (event) {
 });
 
 // Retrieve
-// document.getElementById("result").innerHTML = localStorage.getItem('intitials');
 document.querySelector('#resultsDIV').style.display = 'none';
 document.querySelector('#scoresDIV').style.display = 'none';
 
